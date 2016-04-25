@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#0699ed</color>-->
+    <!--<color name="colorPrimaryDark">#047fc6</color>-->
+    <!--<color name="textColorPrimary">#FFFFFF</color>-->
+    <!--<color name="windowBackground">#FFFFFF</color>-->
+    <!--<color name="navigationBarColor">#000000</color>-->
+    <!--<color name="colorAccent">#FF80AB</color>-->
+
+    <color name="colorPrimary">#F50057</color>
+    <color name="colorPrimaryDark">#C51162</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorAccent">#FF80AB</color>
+    <!-- <color name="navigationBarColor">#0097A7</color>-->
+
+    <color name="list_main_text">#333333</color>
+    <color name="list_sub_text">#0699ed</color>
+    <color name="delete_name">#8e8e8e</color>
+    <!--#cccccc-->
+    <color name="image_highlight">#cccccc</color>
+
+    <!-- UserAuth -->
+    <item name="login_et_border" type="color">#25aae1</item>
+    <item name="mobile_pwd_text_color" type="color">#25aae1</item>
+    <item name="forgot_pwd_text" type="color">#1397ce</item>
+    <item name="skip_text" type="color">#ff8800</item>
+    <item name="custom_blue" type="color">#25aae1</item>
+    <item name="user_policy_content_text_color" type="color">#666666</item>
+    <color name="color_preloader_start">#A9D0F5</color>
+    <color name="color_preloader_center">#A9D0F5</color>
+    <color name="color_preloader_end">#819FF7</color>
+    <!--sengment-->
+    <color name="radio_button_selected_color">#ff33b5e5</color>
+    <color name="radio_button_unselected_color">@android:color/transparent</color>
+</resources>

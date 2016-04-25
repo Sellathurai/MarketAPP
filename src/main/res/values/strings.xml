@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Market Place</string>
+    <string name="title_section1">Profile</string>
+    <string name="title_section2">Buyer</string>
+    <string name="title_section3">Seller</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+
+
+    <!--    <string name="hello_world">Hello world!</string>-->
+    <!--    <string name="action_settings">Settings</string>-->
+    <string name="action_search">Search</string>
+
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <!--   <string name="main_activity_search">Name/Mobile number</string>-->
+
+    <string name="no_contact">There is no contact list to display.</string>
+    <string name="no_list">There is no list from server.</string>
+    <string name="no_message_list">There is no message list to display.</string>
+    <string name="mmm">நிலக்கடலை சாகுபடியில் கூடுதல் மகசூல் பெற ஊட்டச்சத்துக் கரைசல் இரு முறை தெளித்தல்,ஜிப்சம் உரமிடுதல் போன்ற பணிகளை விவசாயிகள் மேற்கொள்ள வேண்டுமென வேளாண்துறை அறிவுறுத்தியுள்ளது.</string>
+    <!--layout-fields-->
+    <string name="mobile_code">+91 </string>
+    <string name="mobile_number">Mobile Number*</string>
+    <string name="password">Password*</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="name">Name</string>
+    <string name="retype">Retype</string>
+    <string name="group_name">Group Name *</string>
+    <string name="user_name">User name *</string>
+    <string name="mobile_number_hint">Mobile Number *</string>
+    <string name="user_tab">User</string>
+    <string name="group_tab">Group</string>
+    <string name="delete">Delete</string>
+    <string name="change_pwd_old">Old</string>
+    <string name="change_pwd_new">New</string>
+    <string name="exit_group">Exit Group</string>
+    <string name="exit_query_add">Do you want to exit without creating group?</string>
+    <string name="exit_query_edit">Do you want to exit without editing group?</string>
+    <string name="yes">Yes</string>
+    <string name="ok">OK</string>
+    <string name="no">No</string>
+    <!-- <string name="forgot_pwd_otp">Otp</string>-->
+    <!--    <string name="forgot_pwd_new">New</string>-->
+    <string name="text_here">Text Here…</string>
+    <string name="resend">Resend</string>
+    <string name="forward">Forward</string>
+    <string name="play_voice">Play Voice</string>
+    <string name="audio_title">Audio Title</string>
+    <string name="filename_hint">Enter file name</string>
+    <string name="import_skip">SKIP</string>
+    <string name="send_via_rainbow_title">Confirmation</string>
+    <string name="sendText_via_rainbow_query">Are you sure to send SMS?</string>
+    <string name="sendVoice_via_rainbow_query">Are you sure to send voice SMS?</string>
+    <string name="contact_not_saved">The following contacts are already imported.</string>
+
+
+    <!--    <string name="Registration page "></string>-->
+    <string name="User_name">User name is required</string>
+    <string name="Mobile_nummber">Mobile number is required</string>
+    <string name="Mobile_verify">Please verify the mobile number</string>
+    <string name="Password">Password is required</string>
+    <string name="Pincode">Pincode is required</string>
+    <string name="Pincode_valid">Please enter valid pincode</string>
+
+    <string name="Email">Please enter valid Email address</string>
+    <string name="Password_min"> Password should be minimum of 7 characters.</string>
+    <string name="Registration">User has been registered successfully</string>
+    <string name="OTP">Please check your OTP</string>
+    <string name="Valid_name">Please enter valid name</string>
+
+    <!--Post buy/sell-->
+    <string name="category">Category is required</string>
+    <string name="product">Product name is required</string>
+    <string name="unit">Unit is required</string>
+    <string name="quantity">Quantity is required</string>
+    <string name="price">Price is required</string>
+    <string name="frequency">Frequency is required</string>
+    <string name="description">Description is required</string>
+    <string name="Error_message"> Could not proceed .Please try after some time</string>
+    <string name="product_Not_reg">Product is not posted</string>
+    <string name="product_Reg">Product details has been successfully posted</string>
+
+    <!--ImageView-content description-->
+    <string name="rainbow_logo">rainbow</string>
+    <string name="play_image">play</string>
+    <string name="delete_button">delete</string>
+    <string name="gu_indicator">group/user</string>
+    <string name="send_black">send</string>
+    <string name="attachment_black">attachment</string>
+    <string name="pause_black">pause</string>
+    <string name="play_arrow_black">play</string>
+    <string name="stop_black">stop</string>
+    <string name="mic_black">mic</string>
+    <string name="mode_img">rainbow/network</string>
+    <string name="tooltip_nav_up">tooltip</string>
+    <string name="save_img">save</string>
+
+    <!--Validation Message-->
+    <string name="contact_greeno">Your session has been expired; please contact rainbow@greeno.in.</string>
+    <!--Login-->
+    <string name="login_success">You are logged in successfully.</string>
+    <string name="login_inactive">Your account is inactive, please contact rainbow@greeno.in.</string>
+    <string name="login_failure">Login Failed, Please Check Your MobileNumber and Password.</string>
+    <!--    <string name="login_new">Your mobile number is not registered with Rainbow\'s Message.</string>-->
+    <!--Forgot Password OTP-->
+    <string name="otp_sent">Your OTP has been sent to your mobile; Please check it.</string>
+    <string name="otp_new">This number does not exist in our system.</string>
+    <string name="otp_failed">Failed to send.</string>
+
+
+    <!--Internet connection-->
+    <string name="check_internet">Internet is required.</string>
+
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/title_buyer</item>
+        <item>@string/title_seller</item>
+        <item>@string/title_post</item>
+        <item>@string/title_logout</item>
+    </string-array>
+
+    <string name="title_buyer">Buyer</string>
+    <string name="title_seller">Seller</string>
+    <string name="title_post">Post Request</string>
+    <string name="title_logout">Logout</string>
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+</resources>

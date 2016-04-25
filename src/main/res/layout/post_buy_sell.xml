@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/windowBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/container_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/toolbar"
+                layout="@layout/toolbar" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+
+                <RadioGroup
+                    android:id="@+id/radioGroup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+
+                    <RadioButton
+                        android:id="@+id/Sell"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_marginLeft="10dp"
+                        android:checked="true"
+                        android:text="I want to Buy"
+                        android:textSize="16dp" />
+
+                    <RadioButton
+                        android:id="@+id/Buy"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="10dp"
+                        android:checked="false"
+                        android:text="I want to Sell"
+                        android:textSize="16dp" />
+                </RadioGroup>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/container_body"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:padding="@dimen/all_around_16px">
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/registerLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:baselineAligned="false"
+                    android:orientation="horizontal">
+
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/categoryRegLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+                            >
+
+                            <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+                                android:id="@+id/categoryReg"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="Category"
+                                android:textColor="@color/list_main_text"
+                                android:textColorHint="@color/list_main_text"
+
+                                android:textSize="@dimen/font_16sp" />
+                        </android.support.design.widget.TextInputLayout>
+
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/productNameLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/categoryRegLayout"
+                            android:layout_marginTop="10dp">
+
+                            <android.support.v7.widget.AppCompatEditText
+                                android:id="@+id/productNameReg"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/all_around_12px"
+                                android:hint="Product name"
+                                android:imeOptions="actionNext"
+
+                                android:singleLine="true"
+                                android:textColor="@color/list_main_text"
+                                android:textSize="@dimen/font_16sp" />
+                        </android.support.design.widget.TextInputLayout>
+
+
+                        <LinearLayout
+                            android:id="@+id/quantityLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/productNameLayout"
+                            android:weightSum="2"
+                            android:layout_marginTop="10dp"
+                            android:orientation="horizontal">
+
+                            <android.support.design.widget.TextInputLayout
+                                android:id="@+id/unitRegLayout"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1">
+
+                                <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+                                    android:id="@+id/unitReg"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="40dp"
+                                    android:hint="Unit"
+
+                                    android:textColorHint="@color/list_main_text"
+                                    android:textColor="@color/list_main_text"
+                                    android:textSize="@dimen/font_16sp"
+                                    android:layout_weight="1" />
+                            </android.support.design.widget.TextInputLayout>
+
+                            <android.support.design.widget.TextInputLayout
+                                android:id="@+id/quantityRegLayout"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1">
+
+                                <android.support.v7.widget.AppCompatEditText
+                                    android:id="@+id/quantity"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="40dp"
+                                    android:hint="Quantity"
+                                    android:layout_marginLeft="10dp"
+                                    android:maxLength="5"
+                                    android:inputType="number"
+                                    android:textColor="@color/list_main_text"
+                                    android:layout_weight="1"
+                                    android:textSize="@dimen/font_16sp" />
+
+                            </android.support.design.widget.TextInputLayout>
+                        </LinearLayout>
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/priceLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/quantityLayout"
+                            android:layout_marginTop="10dp">
+
+                            <android.support.v7.widget.AppCompatEditText
+                                android:id="@+id/priceReg"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+
+                                android:hint="Price"
+                                android:imeOptions="actionNext"
+                                android:inputType="number"
+                                android:maxLength="6"
+                                android:singleLine="true"
+
+                                android:textColor="@color/list_main_text"
+                                android:textSize="@dimen/font_16sp" />
+                        </android.support.design.widget.TextInputLayout>
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/frequencyRegRegLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/priceLayout"
+                            android:layout_marginTop="10dp">
+
+                            <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+                                android:id="@+id/frequencyReg"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="Frequency"
+
+                                android:textColorHint="#05ab9a"
+                                android:textColor="@color/list_main_text"
+
+                                android:textSize="@dimen/font_16sp" />
+                        </android.support.design.widget.TextInputLayout>
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/descLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/frequencyRegRegLayout"
+                            android:layout_marginTop="10dp">
+
+                            <android.support.v7.widget.AppCompatEditText
+                                android:id="@+id/descReg"
+
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/all_around_12px"
+                                android:hint="Description"
+                                android:imeOptions="flagNoEnterAction"
+                                android:inputType="textMultiLine"
+                                android:maxLength="100"
+                                android:textColor="@color/list_main_text"
+                                android:textSize="@dimen/font_16sp" />
+                        </android.support.design.widget.TextInputLayout>
+                    </RelativeLayout>
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

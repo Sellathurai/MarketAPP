@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="@dimen/ua_frg_pwd_left_margin"
+    android:layout_marginRight="@dimen/ua_frg_pwd_right_margin">
+
+    <EditText
+        android:layout_marginTop="30dp"
+        android:id="@+id/OTPnumber"
+        style="@style/LoginTextFieldTheme"
+        android:ems="10"
+        android:inputType="number"
+        android:maxLength="7"
+        android:hint="Enter OTP"
+        android:textCursorDrawable="@null" />
+
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="Verify"
+        android:id="@+id/OTPsend"
+
+        android:background="@drawable/selector_blue_purple"
+        android:textColor="@color/textColorPrimary"
+
+        android:layout_gravity="right" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp" />
+
+</LinearLayout>

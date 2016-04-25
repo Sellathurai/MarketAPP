@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <!--    <style name="AppTheme" parent="AppTheme.Base">
+            &lt;!&ndash; Customize your theme here. &ndash;&gt;
+        </style>-->
+
+    <!-- <style name="AppTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">-->
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+        <!--     <item name="navigationBarColor">@color/navigationBarColor</item>-->
+    </style>
+
+    <style name="App.Dialog" parent="Theme.AppCompat">
+
+    </style>
+    <!-- Application theme. -->
+
+    <style name="Widget"></style>
+
+    <style name="Widget.FloatingHintEditText" parent="@android:style/Widget.EditText">
+        <item name="android:paddingTop">0dp</item>
+    </style>
+    <!-- Login Screen -->
+    <style name="LoginTextFieldTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/mobile_pwd_text_color</item>
+    </style>
+
+
+    <style name="LinkButtonTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:textSize">@dimen/ua_forgot_pwd_text_size</item>
+    </style>
+
+
+    <style name="MyMaterialTheme" parent="MyMaterialTheme.Base">
+
+    </style>
+
+    <style name="MyMaterialTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="error_appearance" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/forgot_pwd_text</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

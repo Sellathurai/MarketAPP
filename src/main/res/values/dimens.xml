@@ -1,0 +1,80 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Per the design guidelines, navigation drawers should be between 240dp and 320dp:
+         https://developer.android.com/design/patterns/navigation-drawer.html -->
+    <dimen name="navigation_drawer_width">240dp</dimen>
+
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <!--    <dimen name="activity_horizontal_margin">16dp</dimen>-->
+    <!--    <dimen name="activity_vertical_margin">16dp</dimen>-->
+    <dimen name="all_around_5px">5px</dimen>
+    <dimen name="all_around_16px">15px</dimen>
+    <dimen name="all_around_12px">12px</dimen>
+
+    <dimen name="menu_size_400">400px</dimen>
+
+    <dimen name="icon_size_48px">48px</dimen>
+    <!--   <dimen name="icon_size_36px">36px</dimen>
+       <dimen name="icon_size_96px">96px</dimen>
+       <dimen name="icon_size_24px">24px</dimen>-->
+
+
+    <dimen name="font_20sp">20sp</dimen>
+    <dimen name="font_18sp">18sp</dimen>
+    <dimen name="font_16sp">15sp</dimen>
+    <dimen name="font_14sp">14sp</dimen>
+
+    <dimen name="space_12dp">12dp</dimen>
+
+    <!-- FloatingHintEditText-->
+    <!--    <item name="floatinghintedittext_hint_scale" type="dimen" format="float">0.6</item>-->
+    <!--    <item name="floatinghintedittext_animation_steps" type="dimen" format="integer">6</item>-->
+    <!--    <integer name="floatinghintedittext_animation_steps">6</integer>-->
+
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="faux_action_bar_size">48dp</dimen>
+    <dimen name="list_detail_image_size">60dp</dimen>
+    <dimen name="list_detail_image_size_offer">20dp</dimen>
+
+
+    <dimen name="listview_commodityname">29dp</dimen>
+    <dimen name="listview_varietyname">15dp</dimen>
+    <dimen name="listview_price">38dp</dimen>
+    <dimen name="listview_rupee">38dp</dimen>
+    <dimen name="listview_unit">36dp</dimen>
+    <dimen name="listview_date">14dp</dimen>
+    <dimen name="listview_title">27dp</dimen>
+
+    <!-- UserAuth -->
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="ua_activity_horizontal_margin">16dp</dimen>
+    <dimen name="ua_activity_vertical_margin">16dp</dimen>
+
+    <!-- Login  -->
+    <dimen name="ua_login_content_top_margin">20dp</dimen>
+    <dimen name="ua_layoutMarginTop">8dp</dimen>
+    <dimen name="ua_layoutMarginBottom">8dp</dimen>
+    <dimen name="ua_forgot_pwd_text_size">16dp</dimen>
+
+    <dimen name="ua_appLogoMarginBottom">10dp</dimen>
+
+    <!-- Forgot Password -->
+    <dimen name="ua_frg_pwd_left_margin">15dp</dimen>
+    <dimen name="ua_frg_pwd_right_margin">15dp</dimen>
+    <dimen name="ua_forgot_pwd_text_size_large">15dp</dimen>
+
+    <!-- Verify OTC -->
+
+    <!-- User Policy  -->
+    <dimen name="ua_layoutMarginBottomExtra">15dp</dimen>
+    <dimen name="ua_webview_height">150dp</dimen>
+
+</resources>
